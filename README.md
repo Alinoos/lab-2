@@ -5,7 +5,7 @@
 ## 1. Создайте пустой репозиторий на сервисе github.com (или `gitlab.com`, или `bitbucket.com`)
 
 ```
-https://github.com/alinoos/lab-02.git
+https://github.com/Alinoos/lab-2
 ```
 
 
@@ -17,7 +17,7 @@ $ echo "# lab-02" >> README.md
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
-$ git remote add origin https://github.com/alinoos/lab-02.git
+$ git remote add origin https://github.com/Alinoos/lab-2
 $ git push -u origin master
 ```
 
@@ -45,7 +45,7 @@ $ git add "Hello world.cpp"
 $ git commit -m "This is first file"
 ```
 
-## 6. Изменитьте исходный код так, чтобы программа через стандартный поток ввода запрашивалось имя пользователя. А в стандартный поток вывода печаталось сообщение `Hello world` from `@name`, где `@name` имя пользователя
+## 6. Измените исходный код так, чтобы программа через стандартный поток ввода запрашивалось имя пользователя. А в стандартный поток вывода печаталось сообщение `Hello world` from `@name`, где `@name` имя пользователя
  
 ```
 $ alias edit=subl
